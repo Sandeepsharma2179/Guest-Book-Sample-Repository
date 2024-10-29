@@ -1,0 +1,8 @@
+environment:
+  name: Sample Environment
+  identifier: Sample_Environment
+  description: ""
+  tags: {}
+  type: PreProduction
+  orgIdentifier: default
+  projectIdentifier: Test_Project
