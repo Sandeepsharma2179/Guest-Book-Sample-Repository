@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: Sample Infra
+  identifier: Sample_Infra
+  orgIdentifier: default
+  projectIdentifier: Test_Project
+  environmentRef: Sample_Environment
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: Kubernetes_cluster_sample
+    namespace: kubernetessample
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
